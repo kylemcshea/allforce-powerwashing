@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
           <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
             Kyle McShea
           </h5>
-          <span className="text-sm text-gray-500 dark:text-gray-400">COO</span>
+          <span className="text-sm text-gray-500 dark:text-gray-400">CMO</span>
           <div className="flex mt-4 space-x-3 md:mt-6">
             <a
               href="#"
