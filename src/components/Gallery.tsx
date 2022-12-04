@@ -20,7 +20,7 @@ const Gallery: React.FC<IGallery> = ({ carouselImages }) => {
           showThumbs={false}
           showStatus={false}
           showArrows={false}
-          interval={3000}
+          interval={5000}
           autoPlay={true}
           infiniteLoop={true}
           autoFocus={true}
