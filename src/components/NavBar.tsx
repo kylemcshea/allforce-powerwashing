@@ -47,7 +47,7 @@ const NavBar: React.FC = () => {
               </svg>
             </button>
           </div>
-          <div className="mt-20 mb-5 flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="mt-20 pt-2 mb-5 flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <img
               className="block h-32 w-auto lg:hidden"
               src={logo}
