@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Offerings from "./Offerings";
 import Marketing from "./Marketing";
 import TimeLapse from "./TimeLapse";
@@ -16,7 +16,7 @@ const Main: React.FC = () => {
         <Offerings setBooking={setBooking} />
       </div>
       <TimeLapse />
-      <div className="mt-3 slide-right">
+      <div className="mt-3">
         <Marketing />
       </div>
       {/* TODO: Get the images to actually show up. For some reason they are showing up blank. */}

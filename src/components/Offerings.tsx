@@ -54,7 +54,7 @@ const Offerings = ({
     <div className="mb-4">
       <div className="w-full max-w-sm p-4 bg-white border rounded-lg shadow-lg sm:p-6 dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
-          Check out our offerings 👇
+          🌟 Book an offering today!
         </h5>
         <ul className="my-4 space-y-3">
           {offeringData().map((offering) => (
