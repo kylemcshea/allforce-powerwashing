@@ -1,10 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../assets/logo.png";
-
-// calls phone number of AllForce Services LLC
-const callPhoneNumber = (): Window | null => {
-  return window.open("tel:2018411306");
-};
 
 const NavBar: React.FC = () => {
   return (
@@ -74,13 +69,14 @@ const NavBar: React.FC = () => {
       </div>
 
       <div className="w-screen text-center text-white nunito font-semibold text-xl">
-        <button
-          type="button"
-          onClick={() => callPhoneNumber()}
-          className="slide-right py-1 border-b-4 border-black w-screen text-white focus:outline-none bg-green-600 hover:bg-forest focus:ring-4 focus:ring-green-300 text-2xl dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-        >
-          <span className="wave-emoji">📞</span> (201) 841-1306
-        </button>
+        <a href="tel:201-841-1306">
+          <button
+            type="button"
+            className="slide-right py-1 border-b-4 border-black w-screen text-white focus:outline-none bg-green-600 hover:bg-forest focus:ring-4 focus:ring-green-300 text-2xl dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+          >
+            <span className="wave-emoji">📞</span> (201) 841-1306
+          </button>
+        </a>
       </div>
     </nav>
   );
