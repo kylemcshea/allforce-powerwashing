@@ -60,15 +60,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="flex justify-center"></div>
       <ul className="w-100 text-center">
-        <li>
-          <a
-            href="https://github.com/kylemcshea/kyle-mcshea-resume"
-            target="_blank"
-            className="font-bold hover:underline text-white"
-          >
-            All Force Services.
-          </a>
-        </li>
+        <li className="font-bold text-white">All Force Services.</li>
       </ul>
     </footer>
   );
