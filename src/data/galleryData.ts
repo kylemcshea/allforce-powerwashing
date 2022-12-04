@@ -5,6 +5,8 @@ import beforeDeck from "../assets/before_after/before_deck.jpg";
 import afterDeck from "../assets/before_after/after_deck.jpg";
 import beforeHouse from "../assets/before_after/before_house_side.jpg";
 import afterHouse from "../assets/before_after/after_house_side.jpg";
+import beforeDeckStairs from "../assets/before_after/deck_stairs_before.jpg";
+import afterDeckStairs from "../assets/before_after/deck_stairs_after.jpg";
 
 export const galleryData = (): CarouselImage[] => {
   return [
@@ -19,6 +21,10 @@ export const galleryData = (): CarouselImage[] => {
     {
       srcBefore: beforeHouse,
       srcAfter: afterHouse,
+    },
+    {
+      srcBefore: beforeDeckStairs,
+      srcAfter: afterDeckStairs,
     },
   ];
 };

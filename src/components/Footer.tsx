@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
             target="_blank"
             className="font-bold hover:underline text-white"
           >
-            Made with {`<3`} By <span className="underline">Kyle</span>
+            All Force Services.
           </a>
         </li>
       </ul>

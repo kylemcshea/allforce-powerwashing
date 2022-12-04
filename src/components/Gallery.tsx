@@ -26,7 +26,7 @@ const Gallery: React.FC<IGallery> = ({ carouselImages }) => {
           <div>
             <img src={c.srcBefore} />
             <p className="legend" style={{ opacity: 1 }}>
-              Before (swipe me 👉)
+              Before (swipe me <span className="wave-emoji">👉</span>)
             </p>
           </div>
           <div>
