@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dino_a from "../assets/dinosaur_a.png";
+import dino_a from "../assets/icons/allforce_dino.png";
 import dino_g from "../assets/dino_g.png";
 import { BsSuitHeartFill } from "react-icons/bs";
 
