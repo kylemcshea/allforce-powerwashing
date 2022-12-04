@@ -10,7 +10,6 @@ import tile from "../assets/icons/tile.png";
 type Offering = {
   name: string;
   icon: string;
-  popular: boolean;
 };
 
 const offeringData = (): Offering[] => {
@@ -18,37 +17,30 @@ const offeringData = (): Offering[] => {
     {
       name: "Snow Management",
       icon: snowflake,
-      popular: true,
     },
     {
       name: "Pressure Washing",
       icon: pressure_washing,
-      popular: false,
     },
     {
       name: "Carpentry",
       icon: deck_cleaning,
-      popular: false,
     },
     {
       name: "Painting",
       icon: painting_roller,
-      popular: false,
     },
     {
       name: "Carpet Installation/Removal",
       icon: carpet_removal,
-      popular: false,
     },
     {
       name: "Debris Removal",
       icon: driveway,
-      popular: false,
     },
     {
       name: "Flooring",
       icon: tile,
-      popular: false,
     },
   ];
 };
@@ -75,9 +67,6 @@ const Offerings = ({
                 <span className="flex-1 ml-3 whitespace-nowrap">
                   {offering.name}
                 </span>
-                {offering.popular ? (
-                  <span className="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400"></span>
-                ) : null}
               </a>
             </li>
           ))}
