@@ -6,7 +6,8 @@ const NavBar: React.FC = () => {
     <nav className="fade-in">
       <div className="max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-12 items-center justify-between">
-          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          {/* TODO: Implement mini nav linker */}
+          {/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 bg-gray-600 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -46,7 +47,7 @@ const NavBar: React.FC = () => {
                 />
               </svg>
             </button>
-          </div>
+          </div> */}
           <div className="mt-20 pt-2 mb-5 flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <img
               className="block h-32 w-auto lg:hidden"
