@@ -1,6 +1,8 @@
 [X] Create a modal to book for an offering.
 [X] Create a Footer to put at the bottom of any page.
 [X] Fix the modal to be scrollable.
+[ ] Dark Mode Text for phone needs to be black.
 [ ] Bring in the React Framer Motion Framework for cool scrolling.
 [ ] Create a gallery page to showcase previous work.
 [ ] Make the website desktop compatible.
+[ ] Need an acceptance modal after completing the ask.
