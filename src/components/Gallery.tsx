@@ -20,19 +20,20 @@ const Gallery: React.FC<IGallery> = ({ carouselImages }) => {
           showThumbs={false}
           showStatus={false}
           showArrows={false}
-          interval={5000}
-          autoPlay={true}
-          infiniteLoop={true}
           autoFocus={true}
           className="my-4"
         >
           <div>
             <img src={c.srcBefore} />
-            <p className="legend">Before (swipe me 👉)</p>
+            <p className="legend" style={{ opacity: 1 }}>
+              Before (swipe me 👉)
+            </p>
           </div>
           <div>
             <img src={c.srcAfter} />
-            <p className="legend">After</p>
+            <p className="legend" style={{ opacity: 1 }}>
+              👈 After
+            </p>
           </div>
         </Carousel>
       ))}
