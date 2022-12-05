@@ -21,6 +21,8 @@ const Gallery: React.FC<IGallery> = ({ carouselImages }) => {
           showStatus={false}
           showArrows={false}
           autoFocus={true}
+          preventMovementUntilSwipeScrollTolerance={true}
+          swipeScrollTolerance={50}
           className="my-4"
         >
           <div>
