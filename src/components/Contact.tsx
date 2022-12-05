@@ -6,7 +6,7 @@ import { SiMinutemailer } from "react-icons/si";
 const Contact: React.FC = () => {
   return (
     <div className="mt-3">
-      <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div className="flex flex-col items-center py-5">
           <img
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="mx-auto mt-2 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div className="flex flex-col items-center py-5">
           <img
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
